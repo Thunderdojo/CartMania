@@ -1,4 +1,5 @@
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h
+C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsGameInstance.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsInterface.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsLibrary.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedIdentityLibrary.h
@@ -12,9 +13,8 @@ C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\Advanced
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\FindSessionsCallbackProxyAdvanced.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetFriendsCallbackProxy.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetRecentPlayersCallbackProxy.h
+C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetUserPrivilegeCallbackProxy.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\LoginUserCallbackProxy.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\LogoutUserCallbackProxy.h
-C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetUserPrivilegeCallbackProxy.h
-C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\UpdateSessionCallbackProxyAdvanced.h
 C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\SendFriendInviteCallbackProxy.h
-C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsGameInstance.h
+C:\Users\thund\Documents\Development\CartMania\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\UpdateSessionCallbackProxyAdvanced.h
