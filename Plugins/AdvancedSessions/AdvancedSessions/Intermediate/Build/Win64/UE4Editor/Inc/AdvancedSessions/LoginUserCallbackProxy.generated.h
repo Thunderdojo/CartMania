@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -19,32 +19,12 @@ class ULoginUserCallbackProxy;
 #define CartMania_Plugins_AdvancedSessions_AdvancedSessions_Source_AdvancedSessions_Classes_LoginUserCallbackProxy_h_13_SPARSE_DATA
 #define CartMania_Plugins_AdvancedSessions_AdvancedSessions_Source_AdvancedSessions_Classes_LoginUserCallbackProxy_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execLoginUser) \
-	{ \
-		P_GET_OBJECT(UObject,Z_Param_WorldContextObject); \
-		P_GET_OBJECT(APlayerController,Z_Param_PlayerController); \
-		P_GET_PROPERTY(UStrProperty,Z_Param_UserID); \
-		P_GET_PROPERTY(UStrProperty,Z_Param_UserToken); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(ULoginUserCallbackProxy**)Z_Param__Result=ULoginUserCallbackProxy::LoginUser(Z_Param_WorldContextObject,Z_Param_PlayerController,Z_Param_UserID,Z_Param_UserToken); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execLoginUser);
 
 
 #define CartMania_Plugins_AdvancedSessions_AdvancedSessions_Source_AdvancedSessions_Classes_LoginUserCallbackProxy_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execLoginUser) \
-	{ \
-		P_GET_OBJECT(UObject,Z_Param_WorldContextObject); \
-		P_GET_OBJECT(APlayerController,Z_Param_PlayerController); \
-		P_GET_PROPERTY(UStrProperty,Z_Param_UserID); \
-		P_GET_PROPERTY(UStrProperty,Z_Param_UserToken); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(ULoginUserCallbackProxy**)Z_Param__Result=ULoginUserCallbackProxy::LoginUser(Z_Param_WorldContextObject,Z_Param_PlayerController,Z_Param_UserID,Z_Param_UserToken); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execLoginUser);
 
 
 #define CartMania_Plugins_AdvancedSessions_AdvancedSessions_Source_AdvancedSessions_Classes_LoginUserCallbackProxy_h_13_INCLASS_NO_PURE_DECLS \
@@ -70,7 +50,7 @@ public: \
 	ADVANCEDSESSIONS_API ULoginUserCallbackProxy(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULoginUserCallbackProxy) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(ADVANCEDSESSIONS_API, ULoginUserCallbackProxy); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULoginUserCallbackProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULoginUserCallbackProxy); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ADVANCEDSESSIONS_API ULoginUserCallbackProxy(ULoginUserCallbackProxy&&); \
@@ -87,7 +67,7 @@ private: \
 	ADVANCEDSESSIONS_API ULoginUserCallbackProxy(const ULoginUserCallbackProxy&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(ADVANCEDSESSIONS_API, ULoginUserCallbackProxy); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULoginUserCallbackProxy); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ULoginUserCallbackProxy); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ULoginUserCallbackProxy)
 
 

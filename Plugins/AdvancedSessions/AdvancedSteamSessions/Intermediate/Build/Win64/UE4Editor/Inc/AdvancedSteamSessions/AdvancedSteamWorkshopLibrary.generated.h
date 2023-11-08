@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -31,44 +31,14 @@ template<> ADVANCEDSTEAMSESSIONS_API UScriptStruct* StaticStruct<struct FBPSteam
 #define CartMania_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_SPARSE_DATA
 #define CartMania_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		UAdvancedSteamWorkshopLibrary::GetNumSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TArray<FBPSteamWorkshopID>*)Z_Param__Result=UAdvancedSteamWorkshopLibrary::GetSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems); \
+	DECLARE_FUNCTION(execGetSubscribedWorkshopItems);
 
 
 #define CartMania_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		UAdvancedSteamWorkshopLibrary::GetNumSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TArray<FBPSteamWorkshopID>*)Z_Param__Result=UAdvancedSteamWorkshopLibrary::GetSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems); \
+	DECLARE_FUNCTION(execGetSubscribedWorkshopItems);
 
 
 #define CartMania_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_INCLASS_NO_PURE_DECLS \
@@ -94,7 +64,7 @@ public: \
 	NO_API UAdvancedSteamWorkshopLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAdvancedSteamWorkshopLibrary) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAdvancedSteamWorkshopLibrary); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAdvancedSteamWorkshopLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAdvancedSteamWorkshopLibrary); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UAdvancedSteamWorkshopLibrary(UAdvancedSteamWorkshopLibrary&&); \
@@ -111,7 +81,7 @@ private: \
 	NO_API UAdvancedSteamWorkshopLibrary(const UAdvancedSteamWorkshopLibrary&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UAdvancedSteamWorkshopLibrary); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAdvancedSteamWorkshopLibrary); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAdvancedSteamWorkshopLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAdvancedSteamWorkshopLibrary)
 
 
